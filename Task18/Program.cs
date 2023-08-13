@@ -8,7 +8,7 @@ string number = Console.ReadLine();
 string quarter = GetQuarterNumber(number);
 string result = quarter != null?
  $"Указанной номер четверти соответсвует диапозону -> {quarter}": 
- "Введите коректный номер четверти";
+ "Ошибка ввода";
 Console.WriteLine(result);
 
 
